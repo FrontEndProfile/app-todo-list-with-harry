@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.abc .add-todo{
+    display: none;
+}
+.home-pg {
+    display: none;
+}
+.abc{
+    .home-pg {
+        display: block;
+    }
+}

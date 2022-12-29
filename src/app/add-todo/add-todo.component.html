@@ -1,0 +1,14 @@
+<div class="mb-4 shadow-lg p-5 rounded rounded-5">
+    <h3 class="fs-2 mb-4">Add Todo</h3>
+    <form class="p-2" (submit)="onsubmit()">
+        <div class="mb-4">
+          <label for="tittle" class="form-label fs-4">Title</label>
+          <input type="text" class="form-control fs-5 text-black border border-2 shadow-none px-3" id="tittle" aria-describedby="emailHelp" name="tittle" [(ngModel)]="tittle" />
+        </div>
+        <div class="mb-5">
+          <label for="desc" class="form-label fs-4">Add Descpricaton</label>
+          <input type="text" class="form-control" id="desc" name="desc" [(ngModel)]="desc" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg shadow-sm">ADD TODO</button>
+      </form>
+</div>
